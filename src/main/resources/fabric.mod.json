@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "simple_motd_command",
+  "version": "${version}",
+  "name": "Simple MOTD Command",
+  "description": "Set a Minecraft server's message of the day with a command.",
+  "icon": "mod-icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "dev.motdcommand.MotdCommand"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
