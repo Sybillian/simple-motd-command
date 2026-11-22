@@ -6,6 +6,12 @@
   "description": "Set a Minecraft server's message of the day with a command.",
   "icon": "mod-icon.png",
   "environment": "server",
+	"authors": [
+		"Sybillian"
+	],
+	"contact": {
+		"modrinth": "https://modrinth.com/project/simple-motd-command"
+	},
   "entrypoints": {
     "main": [
       "dev.motdcommand.MotdCommand"
